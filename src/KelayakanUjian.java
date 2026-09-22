@@ -8,9 +8,7 @@ public class KelayakanUjian {
 
         System.out.print("Kehadiran (%) : ");
         int kehadiran = input.nextInt();
-        System.out.print("Nilai tugas : ");
-        int nilaiTugas = input.nextInt();
-        System.out.print("Dispensasi (true/false) : ");
+
         boolean dispensasi = input.nextBoolean();
 
         boolean a = kehadiran >= 75 && nilaiTugas >= 60 || dispensasi;
@@ -25,8 +23,8 @@ public class KelayakanUjian {
         boolean y = (nilaiTugas >= 60) || (cek++ > 0);
 
         System.out.println("Kehadiran: " + kehadiran + "%");
-        System.out.println("Nilai tugas: " + nilaiTugas);
-        System.out.println("Dispensasi : " + dispensasi);
+
+
         System.out.println();
         System.out.println(" KELAYAKAN UJIAN ");
 
