@@ -10,7 +10,7 @@ public class KelayakanUjian {
         int kehadiran = input.nextInt();
         System.out.print("Nilai tugas : ");
         int nilaiTugas = input.nextInt();
-
+        System.out.print("Dispensasi (true/false) : ");
         boolean dispensasi = input.nextBoolean();
 
         boolean a = kehadiran >= 75 && nilaiTugas >= 60 || dispensasi;
@@ -30,7 +30,7 @@ public class KelayakanUjian {
         System.out.println();
         System.out.println(" KELAYAKAN UJIAN ");
         System.out.println("Nilai tugas: " + nilaiTugas);
-
+        System.out.println("Dispensasi : " + dispensasi);
         System.out.println();
         System.out.println("a (tanpa kurung) : " + a);
         System.out.println("b (prioritas Kurung): " + b);
